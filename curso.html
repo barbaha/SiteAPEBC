@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="APEBC, Academia Pernambucana de Bombeiros Civis, apebec, Bombeiros, fogo, Pernambuco, urgencia, bombeiro civil, bombeiros civis, Cursos, Curso de bombeiro, primeiros socorros, bombeiro, bombeiros apebec">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>APEBC</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link type="text/css" rel="stylesheet" href="css/galeria.css"/>
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>  
+    <link rel="stylesheet" href="css/bootstrap.css"><!-- versão 3.3.6-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script scr="js/bootstrap.js"></script>
+    </head>
+    <body>
+    <header>
+        <nav id="header" class=" nav-home navbar navbar-fixed-top">
+            <div id="header-container" class="navbar-container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="brand" class="navbar-brand logo-home" onclick="rolar_para('.home')" href="index.html"> 
+                        <img src="img/logo-bg.png" alt="APEBC - Academica Pernambucana de Bombeiros civis">
+                    </a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html" onclick="rolar_para('.quem-somos')">
+                            QUEM SOMOS
+                        </a></li>
+                        <li><a href="index.html" onclick="rolar_para('.cursos')">CURSOS</a></li>
+                        <li><a href="index.html" onclick="rolar_para('.leis-normas')">LEIS E NORMAS</a></li>
+                        <li><a href="index.html" onclick="rolar_para('.bombeiro')">O BOMBEIRO CIVIL</a></li>
+                        <li><a href="index.html" onclick="rolar_para('.fotos')">FOTOS</a></li>
+                        <li><a href="index.html" onclick="rolar_para('.videos')">VIDEOS</a></li>
+                        <li><a href="index.html" onclick="rolar_para('.contato')">CONTATO</a></li>
+                    </ul>
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </nav><!-- /.navbar -->
+    </header>
+
+      
+    <section class="curso-content">
+        <div class="container">
+            <div class="infos-curso">
+                <h1>Grade do curso</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi necessitatibus nostrum tempore, voluptatibus cupiditate ab numquam deleniti aliquid nemo, quis, animi ullam accusamus placeat, itaque. Exercitationem nulla necessitatibus facere itaque.
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                </p><hr>
+                <h1>Material</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia illo numquam harum praesentium, dignissimos nisi recusandae neque illum alias. Sit fugit a possimus dolor placeat nihil quisquam, error animi iure!</p><hr>
+                <h1>Investimento</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi culpa voluptate inventore nam architecto distinctio aut assumenda illo, earum enim atque porro corrupti, repellendus beatae, velit molestiae ipsum deleniti. Possimus.</p><hr>
+                <h1>Próximas turmas</h1>
+                <p><b>Inicio</b></p>
+                <p>03/05/2016</p>
+                <p>03/05/2016</p>
+            </div>
+
+            <!--<div class="infos-curso">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut iure quibusdam accusantium enim cum, laboriosam quod quaerat, nesciunt ab totam, quis possimus libero, ratione adipisci nemo ex aspernatur consequuntur amet.</p>
+            </div> -->
+
+            <section class="interesse">
+                <input type="text" class="form-control entrada nome" id="name" name="nome" placeholder="NOME" required>
+                <input type="text" class="form-control entrada email" id="email" name="email" placeholder="E-MAIL" required>
+                <input type="text" class="form-control entrada numero" id="address" name="numero" placeholder="TELEFONE" required>
+
+                <button type="button" id="submit" name="submit" class="btn btn-form btn-primary btn-sm pull-right">
+                    <p>TENHO INTERESSE</p>
+                </button>
+
+            </section>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="news">
+                <h1>assine nossa newsletter</h1>
+                <p>Fique por dentro das novidades</p>
+                <div class="campo">
+                    <input type="text" class="entrada email" id="email" name="email" placeholder="SEU E-MAIL" required>
+                    <button type="button" id="submit" name="submit" class="btn btn-form btn-primary btn-sm pull-right">
+                        <img src="img/icon-enviar.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <a href="" onclick="rolar_para('.home')" class="inicio">
+                <img src="img/setas.png" alt="">
+            </a>
+
+                <div class="redes-sociais">
+                    <a href="https://www.facebook.com/apebctreinamentos" target="_blank" class="fb"></a>
+                    <a href="https://www.youtube.com" target="_blank" class="youtube"></a>
+                </div>
+
+                <div class="local">
+                    <p>Av. Conde da Boa Vista, 700 - Condomínio Edifício Iobi, Boa Vista, Recife - PE | 81 3236-1236 | contato@apebc.com.br</p>
+
+                    <span>© 2016. APEBC. Todos os direitos reservados.</span>
+                </div>
+        </div>
+    </footer>
+
+      <script>
+        function rolar_para(elemento) {
+          $('html, body').animate({
+            scrollTop: $(elemento).offset().top
+        }, 1000);
+      }
+    </script>
+        <script>
+        $(document).ready(function(){
+
+            var myNavBar = {
+
+                flagAdd: true,
+
+                elements: [],
+
+                init: function (elements) {
+                    this.elements = elements;
+                },
+
+                add : function() {
+                    if(this.flagAdd) {
+                        for(var i=0; i < this.elements.length; i++) {
+                            document.getElementById(this.elements[i]).className += " fixed-theme";
+                        }
+                        this.flagAdd = false;
+                    }
+                },
+
+                remove: function() {
+                    for(var i=0; i < this.elements.length; i++) {
+                        document.getElementById(this.elements[i]).className =
+                        document.getElementById(this.elements[i]).className.replace( /(?:^|\s)fixed-theme(?!\S)/g , '' );
+                    }
+                    this.flagAdd = true;
+                }
+
+            };
+
+            myNavBar.init(  [
+                "header",
+                "header-container",
+                "brand"
+                ]);
+
+            function offSetManager(){
+
+                var yOffset = 0;
+                var currYOffSet = window.pageYOffset;
+
+                if(yOffset < currYOffSet) {
+                    myNavBar.add();
+                }
+                else if(currYOffSet == yOffset){
+                    myNavBar.remove();
+                }
+
+            }
+
+            window.onscroll = function(e) {
+                offSetManager();
+            }
+
+            offSetManager();
+        });
+    </script>  
+      </header>        
+    </body>
+</html>

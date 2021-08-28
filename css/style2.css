@@ -1,0 +1,868 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: 'MuseoSans100';
+	src: url("fonts/MuseoSans-100.ttf");
+}
+
+@font-face{
+	font-family: 'MuseoSans300';
+	src: url("fonts/MuseoSans-300.ttf");
+}
+
+@font-face{
+	font-family: 'MuseoSans500';
+	src: url("fonts/MuseoSans_500.ttf");
+}
+
+@font-face{
+	font-family: 'MuseoSans900';
+	src: url("fonts/MuseoSans_900.ttf");
+}
+
+html,
+body {
+    overflow-x: hidden; 
+}
+
+body {
+    padding-top: 100px;
+}
+footer {
+    padding: 30px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    /*padding: 20px 0 20px 0;*/
+}
+
+.navbar-nav {
+    margin-top: 10px;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #4f4f4f;
+    border-color: #4f4f4f;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+} 	
+
+.home{
+	height: 900px;
+	background: url(../img/bgM-APEBC.png) no-repeat top center;
+	margin-top: -100px;
+}
+
+@media only screen and (min-width:1550px){
+
+	.home{
+		background: url(../img/bgG-APEBC.png) no-repeat top center;
+		height: 1000px;
+	}
+
+	.navbar-nav {
+	    margin: 20px 0 0 15% !important;
+	}
+
+	.texto-header{
+		width: 50%;
+		color: #fff;
+		margin-top: 19%;
+		font-size: 100px;
+		text-align: left;
+		float: left;
+		line-height: 100px;
+	}
+
+	h1 > span{
+		font-size: 28px;
+		font-family: "MuseoSans100";
+		margin-left: 10px;
+	}
+}
+
+.nav-home{
+	height: 90px;
+}
+
+.logo-home{
+	width: 327px;
+	border-right: 10px solid transparent;
+}
+
+.logo-home > img{
+	margin-top: -4px;
+	margin-left: -3px;
+}
+
+.texto{
+	margin-top: 0;
+	color: #fff;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: "MuseoSans900";
+	border: 3px solid transparent;
+}
+
+.fixed-theme a {
+    color: #fff;
+}
+
+a:hover,
+a:focus, 
+a:before {
+  color: #fff;
+  text-decoration: underline;
+  background-color: transparent;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav > li > a:active {
+  text-decoration: none;
+  background-color: transparent;
+  border: 3px solid #ca463d;
+  color: #aaa;
+}
+
+.texto-header{
+	width: 50%;
+	color: #fff;
+	margin-top: 19%;
+	font-size: 100px;
+	text-align: left;
+	float: left;
+	line-height: 100px;
+}
+
+h1{
+	font-family: "MuseoSans900";
+	font-size: 42px;
+	float: right;
+	text-transform:uppercase;
+}
+
+h1 > span{
+	font-size: 28px;
+	font-family: "MuseoSans100";
+	margin-left: 10px;
+}
+
+.quem-somos{
+	height: 800px;
+	background-color: black;
+	background-color: #ebebeb;
+	color: #3c4451;
+}
+
+.quem-somos > .container > .texto-quem > h1{
+	font-size: 42px;
+	margin-top: 100px;
+	padding-bottom: 15px;
+	
+}
+
+.texto-quem{
+	float: left;
+	width: 38%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.quem-somos > .container > .texto-quem > p{
+	font-family: "MuseoSans500";
+	font-size: 18px;
+	margin-top: 100px;
+}
+
+.quem-somos > .container > .contador{
+	float: right;
+	width: 380px;
+	height: 385px;
+	border: 5px solid #ca463d;
+	-moz-border-radius: 50px; 
+  	-webkit-border-radius: 50px; 
+  	border-radius: 190px; 
+  	text-align: center;
+  	margin-top: 200px;
+}
+
+.quem-somos > .container > .contador > img{
+	float: right;
+	margin-top: -50px;
+}
+
+.quem-somos > .container > .contador > h2{
+	font-family: "MuseoSans900";
+	font-size: 40px;
+	text-transform:uppercase;
+	color: #ca463d;
+	text-align: center;
+  	margin: 115px 0 0 0;
+
+}
+
+.quem-somos > .container > .contador > h2 > span {
+	font-family: "MuseoSans300";
+	font-size: 30px;
+	text-transform: none;
+
+}
+
+.quem-somos > .container > .contador > h2 > span > b{
+	font-size: 100px;
+}
+
+.cursos{
+	height: 1100px;
+	background-color: #ddd;
+}
+
+.cursos > .container > .text-cursos > p{
+	font-family: "MuseoSans500";
+	font-size: 18px;
+	margin-top: 150px;
+}
+
+.grid{
+	width: 25%;
+	height: 300px;
+	float: left;
+}
+
+.cursos > .container > .grid-cursos > .btn-cursos{
+	background-color: #ca463d;
+	overflow: hidden;
+	float: left;
+	width: 300px;
+	margin: 32px;
+	height: 90px;
+	text-align: center;
+	padding-top: 30px;
+	font-family: "MuseoSans500";
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.grid-curso1, .grid-curso2, .grid-curso3, 
+.grid-curso4, .grid-curso5, .grid-curso6, .grid-curso7{
+	color: #30414D;
+	padding: 290px 2% 0 2%;
+	text-align: center;
+	text-decoration: none;
+	font-family: "MuseoSans900";
+	font-size: 18px;
+
+}
+
+.grid-curso1:hover, .grid-curso2:hover, .grid-curso3:hover, 
+.grid-curso4:hover, .grid-curso5:hover, .grid-curso6:hover, .grid-curso7:hover{
+	color: #E65940;
+	text-decoration: none;
+
+}
+
+.grid-cursos > .grid-curso1{
+	background: url(../img/icon-bombeiro.png) no-repeat center center;
+}
+
+.grid-cursos > .grid-curso2{
+	background: url(../img/icon-bombeiro-att.png) no-repeat center center;
+}
+
+.grid-cursos > .grid-curso3{
+	background: url(../img/icon-APH.png) no-repeat center center;
+}
+
+.grid-cursos > .grid-curso4{
+	background: url(../img/icon-supervisor-NR-35.png) no-repeat center center;
+}
+
+.grid-cursos > .grid-curso5{
+	background: url(../img/icon-resgate-NR-35.png) no-repeat center center;
+	margin-left: 12.5%;
+}
+
+.grid-cursos > .grid-curso6{
+	background: url(../img/icon-supervisor-confinado.png) no-repeat center center;
+}
+
+.grid-cursos > .grid-curso7{
+	background: url(../img/icon-heliponto.png) no-repeat center center;
+}
+
+.grid-curso5, .grid-curso6, .grid-curso7{
+	margin-top: 50px;
+}
+
+.leis-normas{
+	height: 900px;
+	background-color: #ebebeb;
+
+}
+
+.leis-normas > .container > .text-leis{
+	font-size: 18px;
+	font-family: "MuseoSans500";
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.leis-normas > .container > .btn-leis{
+	background-color: #ca463d;
+	overflow: hidden;
+	float: left;
+	width: 300px;
+	margin: 32px;
+	height: 90px;
+	text-align: center;
+	padding-top: 30px;
+	font-family: "MuseoSans500";
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.btn-leis:before,
+.btn-cursos:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3c4451;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.btn-leis:hover, .btn-leis:focus, .btn-leis:active,
+.btn-cursos:hover, .btn-cursos:focus, .btn-cursos:active {
+  color: white;
+}
+.btn-leis:hover:before, .btn-leis:focus:before, .btn-leis:active:before,
+.btn-cursos:hover:before, .btn-cursos:focus:before, .btn-cursos:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+
+.bombeiro{
+	height: 900px;
+	background-color: #ddd;
+}
+
+.bombeiro > .container > .header-bombeiro{
+	margin: 216px 0 0 0;
+	float: left;
+	background-color: #ca463d;
+	width: 490px;
+	background: url(../img/bg-bombeiro.png) no-repeat center center ;       
+  }
+
+.bombeiro > .container > .header-bombeiro > img{
+	margin-left: 25%;
+}
+
+.bombeiro > .container > .text-bombeiro{
+	width: 550px;
+	float: right;
+	margin-top: 90px;
+
+}
+
+.bombeiro > .container > .text-bombeiro > h1{
+	font-size: 42px;
+}
+
+.bombeiro > .container > .text-bombeiro > p{
+	font-family: "MuseoSans300";
+	font-size: 16px;
+}
+
+.bombeiro > .container > .text-bombeiro > p > span{
+	font-family: "MuseoSans500";
+}
+
+.fotos{
+	height: 900px;
+	background-color: #ebebeb; 
+}
+
+.fotos > .container > .text-fotos{
+	font-family: "MuseoSans500";
+	font-size: 18px;
+	margin-top: 150px;
+}
+
+.fotos > .galeria{
+	height: 400px;
+	margin: 35px 0.5%;
+}
+
+.videos{
+	height: 800px;
+	background-color: #ebebeb;
+	padding-top: 150px;
+}
+
+.videos > .container > .text-videos{
+	font-family: "MuseoSans500";
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.videos{
+  height: 1000px;
+  background-color: #ddd;
+  padding-top: 120px;
+}
+
+/*  VIDEO PLAYER CONTAINER
+    ############################### */
+.vid-container {
+	position: relative;
+	padding-bottom: 52%;
+}
+
+.vid-container iframe,
+.vid-container object,
+.vid-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*  VIDEOS PLAYLIST 
+############################### */
+.vid-list-container {
+	width: 92%;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left:4%;
+	padding-bottom: 20px;
+}
+
+.vid-list {
+	width: 1344px;
+	position: relative;
+	top:0;
+	left: 0;
+}
+
+.vid-item {
+	display: block;
+	width: 148px;
+	height: 148px;
+	float: left;
+	margin: 0;
+	padding: 10px;
+}
+
+.thumb {
+	/*position: relative;*/
+	overflow:hidden;
+	height: 84px;
+}
+
+.thumb img {
+	width: 100%;
+	position: relative;
+	top: -13px;
+}
+
+.vid-item .desc {
+	font-family: "MuseoSans500";
+	font-size: 16px;
+	text-align: center;
+	color: #3c4451;
+	margin-top:5px;
+}
+
+.vid-item:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+.arrows {
+	position:relative;
+	width: 100%;
+}
+
+.arrow-left {
+	color: #fff;
+	position: absolute;
+	padding: 15px;
+	left: -25px;
+	top: -130px;
+	z-index: 99;
+	cursor: pointer;
+}
+
+.arrow-right {
+	color: #fff;
+	position: absolute;
+	padding: 15px;
+	right: -25px;
+	top: -130px;
+	z-index:100;
+	cursor: pointer;
+}
+
+.arrow-left:hover {
+	background: #CC181E;
+}
+
+.arrow-right:hover {
+	background: #CC181E;
+}
+
+
+@media (max-width: 624px) {
+	body {
+		margin: 15px;
+	}
+	.caption {
+		margin-top: 40px;
+	}
+	.vid-list-container {
+		padding-bottom: 20px;
+	}
+
+	/* reposition left/right arrows */
+	.arrows {
+		position:relative;
+		margin: 0 auto;
+		width:96px;
+	}
+	.arrow-left {
+		left: 0;
+		top: -17px;
+	}
+
+	.arrow-right {
+		right: 0;
+		top: -17px;
+	}
+}
+
+.contato{
+	background-color: #ddd;
+	padding-top: 150px;
+}
+
+.container > .form{
+	width: 50%;
+	float: right;
+}
+.container > .form > form > input{
+	display: block;
+    height: 50px;
+    padding: 6px 12px;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #f1f0f0;
+    background-image: none;
+    border: 1px solid #ccc;
+    font-family: 'MuseoSans300';
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.container > .form > form > input.nome{
+	width: 100%;
+}
+
+.container > .form > form > input.email{
+	width: 50%;
+	float: left;
+}
+
+.container > .form > form > input.numero{
+	width: 50%;
+}
+
+.container > .form > form > .mensagem{
+	width: 100%;
+	height: 250px;
+	background-color: #f1f0f0;
+	border: 1px solid #ccc;
+	padding: 6px 12px;
+	margin: 0 0 10px 0;
+	font-family: 'MuseoSans300';
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+
+}
+
+.container > .form > form > button{
+	width: 100%;
+	height: 50px;
+	border: 2px solid transparent;
+	color: #fff;
+	font-family: "MuseoSans900";
+	font-size: 18px;
+	background-color: #ca463d;
+	text-transform: uppercase;
+}
+
+.container > .form > form > button:hover,
+.curso-content > .container > .interesse > button:hover{
+	color: #ca463d;
+    background-color: transparent;
+    border: 2px solid #ca463d;
+}
+
+.curso-content{
+	background-color: #ebebeb;
+}
+.curso-content > .container > .interesse{
+	margin-bottom: 150px;
+}
+.curso-content > .container > .interesse > input{
+	display: block;
+    height: 50px;
+    width: 26.6%;
+    float: left;	
+    padding: 6px 12px;
+    margin: 0 1% 10px 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #f1f0f0;
+    background-image: none;
+    border: 1px solid #ccc;
+    font-family: 'MuseoSans300';
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.curso-content > .container > .interesse > button{
+	width: 17%;
+	height: 50px;
+	border: 2px solid transparent;
+	color: #fff;
+	font-family: "MuseoSans900";
+	font-size: 16px;
+	background-color: #ca463d;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.curso-content > .container > .interesse > input.nome,
+.curso-content > .container > .interesse > input.email,
+.curso-content > .container > .interesse > input.numero,{
+	width: 26.6%;
+}
+
+.curso-content > .container > .infos-curso > h1{
+	width: 100%;
+	color: #3c4451;
+	margin-bottom: 2%;
+}
+
+.curso-content > .container > .infos-curso > h2{
+	width: 100%;
+	color: #3c4451;
+	margin-bottom: 2%;
+	font-family: 16px;
+}
+
+.curso-content > .container > .infos-curso > p{
+	color: #3c4451;
+	font-size: 18px;
+	margin-bottom: 2%;
+}
+
+.curso-content > .container > .infos-curso > ul > li{
+	color: #3c4451;
+	font-size: 18px;
+}
+
+.curso-content > .container > .infos-curso > hr{
+	background-color: #aaa;
+	height: 1px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+footer{
+	height: 300px;
+	background-color: #3c4451;
+}
+
+footer > .container > .news{
+	background-color: #ca463d;
+	color: #fff;
+	width: 40%;
+	height: 300px;
+	margin-top: -30px;
+}
+
+footer > .container > .news > h1{
+	margin: 100px 0 0 10%;
+	width: 50%;
+	float: left;
+}
+
+footer > .container > .news > p{
+	margin: 0 0 0 10%;
+	font-family: 'MuseoSans300';
+	float: left;
+}
+
+footer > .container > .news > .campo{
+	width: 90%;
+}
+
+footer > .container > .news > .campo > input{
+	display: block;
+	width: 60%;
+    height: 50px;
+    padding: 6px 12px;
+    margin: 20px 0 10px 10%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #f1f0f0;
+    background-image: none;
+    border: 1px solid #ccc;
+    opacity: 0.3;
+    float: left;
+    font-family: 'MuseoSans300';
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+footer > .container > .news > .campo > button{
+	width: 50px;
+	border: 2px solid transparent;
+	color: #fff;
+	font-family: "MuseoSans900";
+	font-size: 18px;
+	background-color: #3c4451;
+	float: left;
+	text-transform: uppercase;
+	height: 50px;
+	margin: 20px 17% 10px 0;
+}
+
+footer > .container > a.inicio{
+	width: 45px;
+	height: 45px;
+	background-color: #ca463d;
+	float: right;
+	margin: -310px 0 0 0;
+	padding: 7px 7px;
+}
+
+footer > .container > .redes-sociais{
+	margin: -200px 25% 0 25%;
+	float: right;
+	height: 70px;
+}
+
+footer > .container > .redes-sociais > a.fb{
+	background-image: url(../img/fb-logo.png);
+	width: 50px;
+	height: 50px;
+	padding: 20px 30px;
+}
+
+footer > .container > .redes-sociais > a.youtube{
+	background-image: url(../img/youtube.png);
+	width: 50px;
+	height: 50px;
+	padding: 20px 30px;
+	margin-left: 5px;
+}
+
+footer > .container > .local{
+	margin: -110px 50%;
+	font-family: 'MuseoSans500';
+	width: 500px;
+	float: left;
+	color: #fff;
+	font-size: 18px;
+}
+
+footer > .container > .local > span{
+	color: #595f67;
+}
